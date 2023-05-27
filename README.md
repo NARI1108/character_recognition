@@ -6,19 +6,12 @@
 </h3>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+## <img align="left" alt="GIF" height="50px" src="https://www.toptimenet.com/images/setting.gif"/>  
+  <ul>
+        
+       Applicable on all Android operating systems
+          
+  </ul>
 
 ## <img align="left" alt="GIF" height="50px" src="https://www.toptimenet.com/images/setting.gif"/>  
   <ul>
