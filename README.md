@@ -11,7 +11,8 @@
 
 ## <code><strong>About App</strong></code> ##
 
-
+<p>Read the questions carefully and answer them with focus, don't spend too much time answering each question!</p>
+<p>
 ## <img align="left" alt="GIF" height="50px" src="https://www.toptimenet.com/images/setting.gif"/>  
   <ul>
         
