@@ -4,6 +4,9 @@
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28">
 
 </h3>
+
+## ✨Character Recognition Vidoe
+
 <p><strong>You can see a profile of our game below.</strong></p>
 
 ## <code><strong>About App</strong></code> ##
