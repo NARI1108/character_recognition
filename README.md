@@ -27,7 +27,6 @@
     <li>
          Material design training (making a floating action button)
     </li>
-
     <li>
         Getting to know VideoView and using it in the program
     </li>
