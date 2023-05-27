@@ -5,7 +5,7 @@
 
 </h3>
 
- <img align="left" alt="GIF" height="30px" src="https://bartvwezel.nl/wp-content/uploads/2020/09/ezgif.com-video-to-gif-8.gif"/>
+
 
 ## <img align="left" alt="GIF" height="50px" src="https://www.toptimenet.com/images/setting.gif"/>  
   <ul>
