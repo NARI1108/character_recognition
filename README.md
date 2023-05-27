@@ -25,10 +25,13 @@
 
 <ul>
     <li>
-         Material design training (making a floating action button)
+         Material design training (making a floating action button).
     </li>
     <li>
-        Getting to know VideoView and using it in the program
+        Getting to know VideoView and using it in the program.
+    </li>
+    <li>
+        Getting to know WebView and using it in the program.
     </li>
 </ul>
 
