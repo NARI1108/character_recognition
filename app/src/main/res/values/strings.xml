@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Character recognition</string>
+    <string name="contact_us">contact us</string>
+    <string name="about_us">about us</string>
+    <string name="test">Test</string>
+    <string name="exit">exit</string>
 </resources>
