@@ -1,7 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"/>
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/back">
+    <Button
+        android:id="@+id/btn_test"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="@string/test"
+        android:textStyle="bold"
+        android:layout_marginTop="120dp"
+        android:layout_gravity="center"
+        android:background="@drawable/buttonstyle"/>
+    <Button
+        android:id="@+id/btn_about_us"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="@string/about_us"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:background="@drawable/buttonstyle"/>
+    <Button
+        android:id="@+id/btn_contact_us"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="@string/contact_us"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:background="@drawable/buttonstyle"/>
+    <Button
+        android:id="@+id/btn_exit"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="@string/exit"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:background="@drawable/buttonstyle"/>
+</LinearLayout>
