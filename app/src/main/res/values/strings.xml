@@ -4,4 +4,11 @@
     <string name="about_us">about us</string>
     <string name="test">Test</string>
     <string name="exit">exit</string>
+    <string name="about_us.txt">
+            The Lollipop Android development team is actually
+            a producer of Android software. Lollipop company is
+            a knowledge-based company. which is run by trainees.
+            You can support our company and improve efficient software.
+            Thanks for using our products.
+    </string>>
 </resources>
