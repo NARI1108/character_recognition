@@ -3,7 +3,6 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <application
-
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -12,6 +11,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CharacterRecognition"
         tools:targetApi="31">
+        <activity
+            android:name=".about_Us_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".testing_Activity"
+            android:exported="false" />
         <activity
             android:name=".splashScreen_Activity"
             android:exported="true"
@@ -25,7 +30,7 @@
         <activity
             android:name=".MainActivity"
             android:exported="false"
-            android:theme="@style/fullScreen"/>
+            android:theme="@style/fullScreen" />
     </application>
 
 </manifest>
