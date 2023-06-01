@@ -12,6 +12,9 @@
         android:theme="@style/Theme.CharacterRecognition"
         tools:targetApi="31">
         <activity
+            android:name=".contact_Us_Activity"
+            android:exported="false" />
+        <activity
             android:name=".about_Us_Activity"
             android:exported="false" />
         <activity

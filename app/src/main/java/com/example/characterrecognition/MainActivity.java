@@ -56,6 +56,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.btn_about_us:
                 new AlertDialog.Builder(this).setTitle(R.string.about_us).setMessage(R.string.about_us_txt).setIcon(R.drawable.icon).show();
                 break;
+            case R.id.btn_contact_us:
+                startActivity(new Intent(MainActivity.this,contact_Us_Activity.class));
+                break;
             case R.id.btn_exit:finish();
         }
     }
