@@ -3,6 +3,7 @@ package com.example.characterrecognition;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -59,7 +60,29 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.btn_contact_us:
                 startActivity(new Intent(MainActivity.this,contact_Us_Activity.class));
                 break;
-            case R.id.btn_exit:finish();
+            case R.id.btn_exit:
+                exit_Dialog();
         }
+    }
+    public void onBackPressed(){
+        exit_Dialog();
+    }
+    void exit_Dialog(){
+        AlertDialog.Builder alert = new AlertDialog.Builder(this);
+        alert.setMessage("Do you wanna exit?");
+        alert.setCancelable(false);
+        alert.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                 finish();
+            }
+        });
+        alert.setNegativeButton("No", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                dialogInterface.cancel();
+            }
+        });
+        alert.create().show();
     }
 }
