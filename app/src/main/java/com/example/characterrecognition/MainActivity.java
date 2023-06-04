@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.view.animation.Animation;
@@ -14,6 +15,7 @@ import android.widget.LinearLayout;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
     Button btn_test, btn_about_us, btn_contact_us, btn_exit;
+    MediaPlayer music;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,6 +23,17 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViews();
         animation();
         setOnClickListener();
+    }
+    @Override
+    protected void onResume(){
+        music = MediaPlayer.create(this,R.raw.music);
+        music.start();
+        super.onResume();
+    }
+    @Override
+    protected void onPause() {
+        if(music != null) music.release(); music=null;
+        super.onPause();
     }
     public void findViews(){
         btn_test = findViewById(R.id.btn_test);
