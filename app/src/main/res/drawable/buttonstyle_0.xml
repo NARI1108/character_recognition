@@ -3,12 +3,12 @@
 
     <item android:state_pressed="false">
         <shape android:shape="oval">
-            <solid android:color="#B49FCF"/>
+            <gradient android:startColor="@color/cardview_light_background" android:endColor="#6F6767"/>
         </shape>
     </item>
     <item android:state_pressed="true">
         <shape android:shape="oval">
-            <solid android:color="#5E4084"/>
+            <gradient android:startColor="@color/cardview_light_background" android:endColor="#6F6767"/>
         </shape>
     </item>
 </selector>
