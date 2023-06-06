@@ -12,10 +12,12 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
-    Button btn_test, btn_about_us, btn_contact_us, btn_exit;
+    Button btn_test, btn_about_us, btn_contact_us, btn_exit, btn_guide;
     MediaPlayer music;
+    TextView txt_title;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -37,35 +39,44 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
     public void findViews(){
         btn_test = findViewById(R.id.btn_test);
+        btn_guide = findViewById(R.id.btn_guide);
         btn_about_us = findViewById(R.id.btn_about_us);
         btn_contact_us = findViewById(R.id.btn_contact_us);
         btn_exit = findViewById(R.id.btn_exit);
+        txt_title = findViewById(R.id.txt_title);
     }
     public void animation(){
         Animation animation_btn_test = AnimationUtils.loadAnimation(this,R.anim.translate_left);
+        Animation animation_btn_guide = AnimationUtils.loadAnimation(this,R.anim.translate_left);
         Animation animation_btn_about_us = AnimationUtils.loadAnimation(this,R.anim.translate_left);
         Animation animation_btn_contact_us = AnimationUtils.loadAnimation(this,R.anim.translate_left);
         Animation animation_btn_exit = AnimationUtils.loadAnimation(this,R.anim.translate_left);
+        Animation animation_txt_title = AnimationUtils.loadAnimation(this,R.anim.translate_top);
 
         btn_test.setAnimation(animation_btn_test);
+        btn_guide.setAnimation(animation_btn_guide);
         btn_about_us.setAnimation(animation_btn_about_us);
         btn_contact_us.setAnimation(animation_btn_contact_us);
         btn_exit.setAnimation(animation_btn_exit);
+        txt_title.setAnimation(animation_txt_title);
 
     }
     public void setOnClickListener(){
         btn_test.setOnClickListener(this);
+        btn_guide.setOnClickListener(this);
         btn_about_us.setOnClickListener(this);
         btn_contact_us.setOnClickListener(this);
         btn_exit.setOnClickListener(this);
     }
-
     @Override
     public void onClick(View view) {
 
         switch(view.getId()){
             case R.id.btn_test:
                 startActivity(new Intent(this,testing_Activity.class));
+                break;
+            case R.id.btn_guide:
+                startActivity(new Intent(this,guide_Activity.class));
                 break;
             case R.id.btn_about_us:
                 new AlertDialog.Builder(this).setTitle(R.string.about_us).setMessage(R.string.about_us_txt).setIcon(R.drawable.icon).show();
