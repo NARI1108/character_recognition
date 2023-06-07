@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Animation animation_btn_about_us = AnimationUtils.loadAnimation(this,R.anim.translate_left);
         Animation animation_btn_contact_us = AnimationUtils.loadAnimation(this,R.anim.translate_left);
         Animation animation_btn_exit = AnimationUtils.loadAnimation(this,R.anim.translate_left);
-        Animation animation_txt_title = AnimationUtils.loadAnimation(this,R.anim.translate_top);
+        Animation animation_txt_title = AnimationUtils.loadAnimation(this,R.anim.translate_left);
 
         btn_test.setAnimation(animation_btn_test);
         btn_guide.setAnimation(animation_btn_guide);
@@ -59,7 +59,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btn_contact_us.setAnimation(animation_btn_contact_us);
         btn_exit.setAnimation(animation_btn_exit);
         txt_title.setAnimation(animation_txt_title);
-
     }
     public void setOnClickListener(){
         btn_test.setOnClickListener(this);
