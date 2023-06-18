@@ -17,7 +17,6 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
     Button btn_test, btn_about_us, btn_contact_us, btn_exit, btn_guide;
     MediaPlayer music;
-    TextView txt_title;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -43,7 +42,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btn_about_us = findViewById(R.id.btn_about_us);
         btn_contact_us = findViewById(R.id.btn_contact_us);
         btn_exit = findViewById(R.id.btn_exit);
-        txt_title = findViewById(R.id.txt_title);
     }
     public void animation(){
         Animation animation_btn_test = AnimationUtils.loadAnimation(this,R.anim.translate_left);
@@ -51,14 +49,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Animation animation_btn_about_us = AnimationUtils.loadAnimation(this,R.anim.translate_left);
         Animation animation_btn_contact_us = AnimationUtils.loadAnimation(this,R.anim.translate_left);
         Animation animation_btn_exit = AnimationUtils.loadAnimation(this,R.anim.translate_left);
-        Animation animation_txt_title = AnimationUtils.loadAnimation(this,R.anim.translate_left);
 
         btn_test.setAnimation(animation_btn_test);
         btn_guide.setAnimation(animation_btn_guide);
         btn_about_us.setAnimation(animation_btn_about_us);
         btn_contact_us.setAnimation(animation_btn_contact_us);
         btn_exit.setAnimation(animation_btn_exit);
-        txt_title.setAnimation(animation_txt_title);
     }
     public void setOnClickListener(){
         btn_test.setOnClickListener(this);
