@@ -15,7 +15,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
-    Button btn_test, btn_about_us, btn_contact_us, btn_exit, btn_guide;
+    Button btn_test, btn_about_us, btn_contact_us, btn_exit, btn_guide, btn_resource;
     MediaPlayer music;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
     public void findViews(){
         btn_test = findViewById(R.id.btn_test);
+        btn_resource = findViewById(R.id.btn_resource);
         btn_guide = findViewById(R.id.btn_guide);
         btn_about_us = findViewById(R.id.btn_about_us);
         btn_contact_us = findViewById(R.id.btn_contact_us);
@@ -45,12 +46,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
     public void animation(){
         Animation animation_btn_test = AnimationUtils.loadAnimation(this,R.anim.translate_left);
+        Animation animation_btn_resource = AnimationUtils.loadAnimation(this,R.anim.translate_left);
         Animation animation_btn_guide = AnimationUtils.loadAnimation(this,R.anim.translate_left);
         Animation animation_btn_about_us = AnimationUtils.loadAnimation(this,R.anim.translate_left);
         Animation animation_btn_contact_us = AnimationUtils.loadAnimation(this,R.anim.translate_left);
         Animation animation_btn_exit = AnimationUtils.loadAnimation(this,R.anim.translate_left);
 
         btn_test.setAnimation(animation_btn_test);
+        btn_resource.setAnimation(animation_btn_resource);
         btn_guide.setAnimation(animation_btn_guide);
         btn_about_us.setAnimation(animation_btn_about_us);
         btn_contact_us.setAnimation(animation_btn_contact_us);
@@ -58,6 +61,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
     public void setOnClickListener(){
         btn_test.setOnClickListener(this);
+        btn_resource.setOnClickListener(this);
         btn_guide.setOnClickListener(this);
         btn_about_us.setOnClickListener(this);
         btn_contact_us.setOnClickListener(this);
@@ -69,6 +73,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch(view.getId()){
             case R.id.btn_test:
                 startActivity(new Intent(this,testing_Activity.class));
+                break;
+            case R.id.btn_resource:
+                startActivity(new Intent(this,resource_Activity.class));
                 break;
             case R.id.btn_guide:
                 startActivity(new Intent(this,guide_Activity.class));
