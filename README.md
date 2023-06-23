@@ -16,6 +16,8 @@
 <p>You have qualities that you may not be aware of.</p>
 <p>This test will tell you whether you are known as a lively, beautiful, entertaining, practical and interesting person, or you are accurate and practical or shy and indecisive!</p>
 
+<p><img src="https://sitek.ir/wp-content/uploads/2019/10/screencapture-identity-flickr-sign-up-2019-09-23-14_17_41.png" width="28">    You can play this game online on this site.</p>
+
 ## <img align="left" alt="GIF" height="50px" src="https://www.toptimenet.com/images/setting.gif"/>  
   <ul>
         
