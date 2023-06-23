@@ -15,7 +15,8 @@
 <p>Read the questions carefully and answer them with focus, don't spend too much time answering each question!</p>
 <p>You have qualities that you may not be aware of.</p>
 <p>This test will tell you whether you are known as a lively, beautiful, entertaining, practical and interesting person, or you are accurate and practical or shy and indecisive!</p>
-##<img align="left" alt="GIF" height="50px" src="https://www.toptimenet.com/images/setting.gif"/>  
+
+## <img align="left" alt="GIF" height="50px" src="https://www.toptimenet.com/images/setting.gif"/>  
   <ul>
         
        Applicable on all Android operating systems
