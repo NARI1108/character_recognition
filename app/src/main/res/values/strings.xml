@@ -25,5 +25,11 @@
     <string name="very_interesting_personality_test_by_answering_a_few_questions_you_can_test_your_personality_and_learn_about_your_inner_secrets_please_answer_honestly">Very interesting personality test. By answering a few questions, you can test your personality and learn about your inner secrets. Please answer honestly.</string>
     <string name="txt_guide">Very interesting personality test. By answering a few questions, you can test your personality and learn about your inner secrets. Please answer honestly.</string>
     <string name="resource">resource</string>
-
+    <string name="txt_counter">question 1 from 13</string>
+    <string name="question">question</string>
+    <string name="question1">"1)What kind of bird would you like to be?"</string>
+    <string name="question2">"2)Which musical instrument do you like?"</string>
+    <string name="question3">"3)Suppose you are the characteristic of someone's face, which part of his face are you?"</string>
+    <string name="question4">"4)Which TV show is more interesting for you?"</string>
+    <string name="question5">"5)Which of the game city games do you like the most?"</string>
 </resources>
