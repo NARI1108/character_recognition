@@ -18,6 +18,8 @@
 
 <p><img src="https://sitek.ir/wp-content/uploads/2019/10/screencapture-identity-flickr-sign-up-2019-09-23-14_17_41.png" width="28">You can visit the following site to test your personality.</p>
 
+[character recognition](https://karboom.io/assessments/myers-briggs)
+
 ## <img align="left" alt="GIF" height="50px" src="https://www.toptimenet.com/images/setting.gif"/>  
   <ul>
         
