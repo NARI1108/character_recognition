@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     protected void onResume(){
         music = MediaPlayer.create(this,R.raw.music);
+        music.setLooping(true);
         music.start();
         super.onResume();
     }
