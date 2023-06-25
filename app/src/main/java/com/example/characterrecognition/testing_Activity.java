@@ -2,6 +2,7 @@ package com.example.characterrecognition;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.view.animation.Animation;
@@ -12,6 +13,7 @@ import android.widget.Toast;
 public class testing_Activity extends AppCompatActivity {
     TextView txt_counter, txt_question1, txt_question2, txt_question3, txt_question4, txt_question5;
     int score=0, counter=1;
+    MediaPlayer sound_click, music;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -42,6 +44,7 @@ public class testing_Activity extends AppCompatActivity {
         txt_question4.setAnimation(animation_txt_question4);
         txt_question5.setAnimation(animation_txt_question5);
     }
+
     public void texts_click(View view){
         switch(view.getId()){
             case R.id.txt_question1: score+=1;
@@ -56,6 +59,25 @@ public class testing_Activity extends AppCompatActivity {
               break;
         }
         counter+=1;
+        sound_click.start();
         Toast.makeText(this, score+"", Toast.LENGTH_SHORT).show();
     }
+    @Override
+    protected void onResume(){
+        music = MediaPlayer.create(this,R.raw.music);
+        music.setLooping(true);
+        music.start();
+        super.onResume();
+    }
+    @Override
+    protected void onPause(){
+        if(music != null) music.release(); music = null;
+        super.onPause();
+    }
+    @Override
+    protected void onDestroy() {
+        if( sound_click != null ) sound_click.release(); sound_click=null;
+        super.onDestroy();
+    }
+
 }
