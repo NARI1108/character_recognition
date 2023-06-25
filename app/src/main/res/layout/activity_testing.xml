@@ -87,7 +87,7 @@
             android:layout_weight="1"
             android:layout_margin="2dp">
             <TextView
-                android:id="@+id/tx_question3"
+                android:id="@+id/txt_question3"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="@string/question3"
