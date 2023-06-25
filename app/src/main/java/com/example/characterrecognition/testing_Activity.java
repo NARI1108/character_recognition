@@ -3,12 +3,15 @@ package com.example.characterrecognition;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class testing_Activity extends AppCompatActivity {
-    TextView txt_counter, txt_question1, txt_question2,txt_question3,txt_question4,txt_question5;
+    TextView txt_counter, txt_question1, txt_question2, txt_question3, txt_question4, txt_question5;
+    int score=0, counter=1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -38,5 +41,21 @@ public class testing_Activity extends AppCompatActivity {
         txt_question3.setAnimation(animation_txt_question3);
         txt_question4.setAnimation(animation_txt_question4);
         txt_question5.setAnimation(animation_txt_question5);
+    }
+    public void texts_click(View view){
+        switch(view.getId()){
+            case R.id.txt_question1: score+=1;
+              break;
+            case R.id.txt_question2: score+=2;
+              break;
+            case R.id.txt_question3: score+=3;
+              break;
+            case R.id.txt_question4: score+=4;
+              break;
+            case R.id.txt_question5: score+=5;
+              break;
+        }
+        counter+=1;
+        Toast.makeText(this, score+"", Toast.LENGTH_SHORT).show();
     }
 }
