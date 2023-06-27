@@ -50,4 +50,29 @@
     <string name="question4_3">"Emotional and police"</string>
     <string name="question4_4">"Love and adventure"</string>
     <string name="question4_5">"Comedy and cartoons"</string>
+    <string name="question5">"5) Which of the game city games do you like the most?"</string>
+    <string name="question5_1">"High-speed roller coasters"</string>
+    <string name="question5_2">"Train or Boat"</string>
+    <string name="question5_3">"Comedy show and performance"</string>
+    <string name="question5_4">"Ferris wheel and fast spinning devices"</string>
+    <string name="question5_5">"None, I hate amusement parks"</string>
+    <string name="question6">"6)Do you laugh at your own mistakes?"</string>
+    <string name="question6_1">"Never"</string>
+    <string name="question6_2">"rarely"</string>
+    <string name="question6_3">"Sometime"</string>
+    <string name="question6_4">"mostly"</string>
+    <string name="question6_5">"So much so that some people think I'm crazy."</string>
+    <string name="question7">"7)Are you interested in animals?"</string>
+    <string name="question7_1">"At all"</string>
+    <string name="question7_2">"Few animals"</string>
+    <string name="question7_3">"Some animals"</string>
+    <string name="question7_4">"Most animals"</string>
+    <string name="question7_5">"All animals"</string>
+    <string name="question8">"8)What is your motto in your life?"</string>
+    <string name="question8_1">"Time is money"</string>
+    <string name="question8_2">"Get up early to be good"</string>
+    <string name="question8_3">"What you like for yourself, like for others"</string>
+    <string name="question8_4">"Live and let others live"</string>
+    <string name="question8_5">"Don't worry, come what may"</string>
+
 </resources>
