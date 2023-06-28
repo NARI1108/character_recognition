@@ -74,5 +74,35 @@
     <string name="question8_3">"What you like for yourself, like for others"</string>
     <string name="question8_4">"Live and let others live"</string>
     <string name="question8_5">"Don't worry, come what may"</string>
+    <string name="question9">"9)What is the opinion of others about you most often?"</string>
+    <string name="question9_1">"Ruthless"</string>
+    <string name="question9_2">"Cold and emotionless"</string>
+    <string name="question9_3">""Beautiful""</string>
+    <string name="question9_4">"lovely"</string>
+    <string name="question9_5">"have fun"</string>
+    <string name="question10">"10)What is the first thing that comes to your mind when you wake up in the morning?"</string>
+    <string name="question10_1">"work or study"</string>
+    <string name="question10_2">"life problems"</string>
+    <string name="question10_3">"Breakfast"</string>
+    <string name="question10_4">"The day ahead of you"</string>
+    <string name="question10_5">"what you will do till night"</string>
+    <string name="question11"></string>
+    <string name="question11_1"></string>
+    <string name="question11_2"></string>
+    <string name="question11_3"></string>
+    <string name="question11_4"></string>
+    <string name="question11_5"></string>
+    <string name="question12"></string>
+    <string name="question12_1"></string>
+    <string name="question12_2"></string>
+    <string name="question12_3"></string>
+    <string name="question12_4"></string>
+    <string name="question12_5"></string>
+    <string name="question13"></string>
+    <string name="question13_1"></string>
+    <string name="question13_2"></string>
+    <string name="question13_3"></string>
+    <string name="question13_4"></string>
+    <string name="question13_5"></string>
 
 </resources>
