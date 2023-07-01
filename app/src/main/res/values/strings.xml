@@ -104,5 +104,6 @@
     <string name="question13_3">"sometimes"</string>
     <string name="question13_4">"mostly"</string>
     <string name="question13_5">"as much as possible"</string>
-
+    <string name="text_result">The result of the personality test</string>
+    <string name="result_1">"This means that you are a white lily. People appreciate you for your perseverance, dedication and success. You have clear goals and your thoughts are focused on your work. You are probably the first child in the family. You hardly express your feelings. do. One of your most important concerns is how you appear in front of different people. Your thoughts tend to be a bit pessimistic. You have self-confidence, but sometimes you don't trust yourself inside."</string>
 </resources>
