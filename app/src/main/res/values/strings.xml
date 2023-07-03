@@ -25,7 +25,7 @@
     <string name="very_interesting_personality_test_by_answering_a_few_questions_you_can_test_your_personality_and_learn_about_your_inner_secrets_please_answer_honestly">Very interesting personality test. By answering a few questions, you can test your personality and learn about your inner secrets. Please answer honestly.</string>
     <string name="txt_guide">Very interesting personality test. By answering a few questions, you can test your personality and learn about your inner secrets. Please answer honestly.</string>
     <string name="resource">resource</string>
-    <string name="txt_counter">question 1 from 13</string>
+    <string name="txt_counter">"question 1 from 13"</string>
     <string name="question1">"1)What kind of bird would you like to be?"</string>
     <string name="question1_1">" Sparrow"</string>
     <string name="question1_2">" Flamingo"</string>
@@ -104,6 +104,8 @@
     <string name="question13_3">"sometimes"</string>
     <string name="question13_4">"mostly"</string>
     <string name="question13_5">"as much as possible"</string>
-    <string name="text_result">The result of the personality test</string>
+    <string name="text_result">"The result of the personality test"</string>
     <string name="result_1">"This means that you are a white lily. People appreciate you for your perseverance, dedication and success. You have clear goals and your thoughts are focused on your work. You are probably the first child in the family. You hardly express your feelings. do. One of your most important concerns is how you appear in front of different people. Your thoughts tend to be a bit pessimistic. You have self-confidence, but sometimes you don't trust yourself inside."</string>
+    <string name="result_2">"It means that you are a rose. You have a little beard, but you have a lot of beauty. You have a sense of humor, but you enjoy hearing jokes. You are probably the middle child in the family. People like to be around you. You are warm-hearted. Many close friends. You see life realistically. You know that life consists of good and bad. You can test your luck according to the capital you have. You are hardworking and stick to your goals. You like to be yourself. And this gives you confidence. The most difficult problem in your life is monotony. Monotony in any matter bothers you and makes your mood dull."</string>
+    <string name="result_3">"This means that you are a sunflower in a bed of roses. There is a distinct feature in you that warms others and makes you stand out. You may be the youngest child in the family or the only child. You are serious when necessary, but your friends know you as a funny person. You enjoy telling jokes. Sometimes you are mischievous. You like to meet new and interesting people in your life. People who never laugh. You are not comfortable. You have a positive outlook on life. You look for the good in everything. You are not a willow that shakes with any wind. You are warm, loving, faithful and sociable, and each of these traits can be a reason for your goodness. You have unlimited energy, but your motivation is low."</string>
 </resources>
