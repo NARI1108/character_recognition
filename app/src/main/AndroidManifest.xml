@@ -19,11 +19,13 @@
         <activity
             android:name=".resource_Activity"
             android:exported="false"
-            android:theme="@style/fullScreen" />
+            android:theme="@style/fullScreen"
+            android:configChanges="orientation|screenSize|keyboardHidden"/>
         <activity
             android:name=".guide_Activity"
             android:exported="false"
-            android:theme="@style/fullScreen" />
+            android:theme="@style/fullScreen"
+            android:configChanges="orientation|screenSize|keyboardHidden"/>
         <activity
             android:name=".contact_Us_Activity"
             android:exported="false"
@@ -31,7 +33,8 @@
         <activity
             android:name=".testing_Activity"
             android:exported="false"
-            android:theme="@style/fullScreen" />
+            android:theme="@style/fullScreen"
+            android:configChanges="orientation|screenSize|keyboardHidden"/>
         <activity
             android:name=".splashScreen_Activity"
             android:exported="true"
