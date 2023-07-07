@@ -7,8 +7,7 @@
 
  <h3 align="center">
   
-  Welcome to my Readme!
-  <img src="https://jadvalyab.ir/blog/%D8%B4%D8%AE%D8%B5%DB%8C%D8%AA-%D8%B4%D9%86%D8%A7%D8%B3%DB%8C-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8-%DA%86%D9%87%D8%B1%D9%87-%D8%AA%D8%B1%D8%B3%D9%86%D8%A7%DA%A9-%DA%A9%D8%AF%D8%A7%D9%85-%D8%AA%D8%B5/" width="28">
+  <img src="https://jadvalyab.ir/blog/wp-content/uploads/2021/05/05c94dd65cd-93c22571ac04e-96862e68de53.jpg.cf_-scaled.jpg" width="28">
 
 </h3>
 ## ✨Character Recognition Vidoe
