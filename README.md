@@ -7,7 +7,7 @@
 
  <h3 align="center">
   
-  <img src="https://jadvalyab.ir/blog/wp-content/uploads/2021/05/05c94dd65cd-93c22571ac04e-96862e68de53.jpg.cf_-scaled.jpg" width="28">
+  <img src="https://jadvalyab.ir/blog/wp-content/uploads/2021/05/05c94dd65cd-93c22571ac04e-96862e68de53.jpg.cf_-scaled.jpg" width="2800">
 
 </h3>
 ## ✨Character Recognition Vidoe
