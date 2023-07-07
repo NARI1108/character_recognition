@@ -12,6 +12,8 @@
 </h3>
 ## ✨Character Recognition Vidoe
 
+[character_recogniation.zip](https://github.com/NARI1108/character_recognition/files/11982473/character_recogniation.zip)
+
 <p><strong>You can see a profile of our app below.</strong></p>
 
 ## <code><strong>About App</strong></code> ##
