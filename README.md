@@ -5,6 +5,7 @@
 
 </h3>
 
+![image](https://github.com/NARI1108/character_recognition/assets/125409221/0c1ac3a5-d24a-4b83-beaa-a8deb4af65c5)
 
 ## ✨Character Recognition Vidoe
 
