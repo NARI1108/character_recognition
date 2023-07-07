@@ -5,8 +5,12 @@
 
 </h3>
 
-![image](https://github.com/NARI1108/character_recognition/assets/125409221/0c1ac3a5-d24a-4b83-beaa-a8deb4af65c5)
+ <h3 align="center">
+  
+  Welcome to my Readme!
+  <img src="https://jadvalyab.ir/blog/%D8%B4%D8%AE%D8%B5%DB%8C%D8%AA-%D8%B4%D9%86%D8%A7%D8%B3%DB%8C-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8-%DA%86%D9%87%D8%B1%D9%87-%D8%AA%D8%B1%D8%B3%D9%86%D8%A7%DA%A9-%DA%A9%D8%AF%D8%A7%D9%85-%D8%AA%D8%B5/" width="28">
 
+</h3>
 ## ✨Character Recognition Vidoe
 
 <p><strong>You can see a profile of our app below.</strong></p>
